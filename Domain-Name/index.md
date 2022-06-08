@@ -79,7 +79,7 @@ There are much more of these, but `4L.com` and `4N.com`'s are still they are har
 |`4N.com`|10k|
 |`4C.com`|1.77M|
 
-Again, notice how the supply of `4C.com` is not 36^4 = 1.68M. This is again because of hyphenation. It is not too hard to find `4C.com`'s in 2022, but most of them don't spell anything and are worthless. A `CVCV` pattern could be pronounceable, but that limits the supply to only 6400 and still includes domains like _qije_ or _xoqu_. That supply could be doubled if a search of `CVVC` is allowed. It is easier to find pronounceable `4L.net` or other TLDs.
+Again, notice how the supply of `4C.com` is not 36^4 = 1.68M. This is again because of hyphenation. It is not too hard to find `4C.com`'s in 2022, but most of them don't spell anything and are worthless. A `CVCV` pattern could be pronounceable, but that limits the supply to only 6400 and still includes domains like _qije_ or _xoqu_. That supply could be doubled if a search of `CVVC` is allowed, which is just shy of 3% of the supply of `4L.com` domains. It is easier to find pronounceable `4L.net` or other TLDs.
 
 ### Five-Character
 
@@ -98,7 +98,7 @@ Anything above this is usually available except for popular words as well. At 5 
 |`CVCVC.com`|232k|
 |No: j, q, x, z|123k|
 
-Requiring 3 consonants and 2 vowels leaves only about 2% of the combinations from the 5-letter sample size. Even just removing 4 letters from that subset almost halved the amount of combinations, which is about 1% of the original sample size. However, the vowels can be rearranged in a `CVCCV` or `CCVCV` pattern and possibly be pronounceable, which increases the sample size by a factor of 3.
+Requiring 3 consonants and 2 vowels leaves only about 2% of the combinations from the 5-letter sample size. Even just removing 4 letters from that subset almost halved the amount of combinations, which is about 1% of the original sample size. However, the vowels can be rearranged in a `CVCCV` or `CCVCV` pattern and possibly be pronounceable, which increases the sample size by a factor of 3, or about 3% of the supply.
 
 ## Six-Character
 
@@ -112,19 +112,17 @@ The following is a rough number of pronounceable combinations of 6 letters.
 
 Let's arbitrarily allow the following patterns to make it "pronounceable":
 
-* `VCVCVC`
-* `VCVCCV`
-* `VCCVCV`
-* `VCCVVC`
-* `CVCVCV`
-* `CVCVVC`
-* `CVVCVC`
-* `CCVVCV`
-* `CCVCVV`
-* `CVCVCC`
-* `CVCCVC`
-* `CCVCVC`
-* `CCVCCV`
+|3C, 3V|4C, 2V|
+|-|-|
+|`VCVCVC`|`CVCVCC`|
+|`VCVCCV`|`CVCCVC`|
+|`VCCVCV`|`CCVCVC`|
+|`VCCVVC`|`CCVCCV`|
+|`CVCVCV`||
+|`CVCVVC`||
+|`CVVCVC`||
+|`CCVVCV`||
+|`CCVCVV`||
 
 There are 9 combinations with 3 vowels and 3 consonants:
 
@@ -134,10 +132,10 @@ There are 4 combinations with 2 vowels and 4 consonants:
 
 4 * (26-5)^3 * 5^2 = 926k
 
-That means the estimated total number of pronounceable 6 letter combinations is generously about 12M, since there could be other consonant-vowel patterns not listed here, but some of these combinations are not pronounceable and should be discounted from the list.
+That means the estimated total number of pronounceable 6 letter combinations is generously about 12M, since there could be other consonant-vowel patterns not listed here, but some of the combinations that would be generated from these patterns are not pronounceable and should be discounted from the list. To continue the trend, 12M is about 3% of the original 309M.
 
 ## Conclusion
 
-In conclusion, while good and short `.com` domains may not be easily found, `.net` and `.org` may provide good alternatives. There are about 10,000 pronounceable 4-letter, 400,000 pronounceable 5-letter, and 12M pronounceable 6-letter combinations which are very rough estimates.
+In conclusion, while good and short `.com` domains may not be easily found, `.net` and `.org` may provide good alternatives. There are about 10,000 pronounceable 4-letter, 400,000 pronounceable 5-letter, and 12M pronounceable 6-letter combinations which are very rough estimates around 3% of the original set of combinations.
 
 [Go Back](/)
