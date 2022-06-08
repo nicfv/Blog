@@ -1,0 +1,2 @@
+# Blog
+Just for fun.
